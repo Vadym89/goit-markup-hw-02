@@ -4,6 +4,7 @@
 --accent-color:#2196F3;
 --background-color:#F5F4FA;
 --hero-color:#FFFFFF;
+--primary-bg-color:#E5E5E5;
 
 }
 
@@ -44,6 +45,19 @@ body {
 .feature-list .title {
     color:var(--title-text-color);
 }
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}
+.button.primary {
+    background-color:var(--accent-color);
+    color:var(--hero-color);
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var
 
 /* body { 
     font-family: 'Roboto', sans-serif;
