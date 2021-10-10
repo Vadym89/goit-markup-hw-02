@@ -11,7 +11,9 @@
 body {
     background-color:#F5F4FA;
     color:var(--primary-text-color);
-}
+}   font-femeli:Montserrat, sans-self;
+
+
 
 .logo {
     color:var(--title-text-color);
@@ -28,6 +30,10 @@ body {
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color:var(--accent-color);
+}
+
+.site-nav .link.current {
+    color:var(--title-text-color);
 }
     /* Hero. колір є */
 
