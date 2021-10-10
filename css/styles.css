@@ -1,10 +1,19 @@
+:root {
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--background-color:#F5F4FA;
+--hero-color:#FFFFFF;
+
+}
+
 body {
     background-color:#F5F4FA;
-    color:#757575;
+    color:var(--primary-text-color);
 }
 
 .logo {
-    color:#212121;
+    color:var(--title-text-color);
 }
 
 .list {
@@ -13,26 +22,27 @@ body {
 
 /* site nav */
 .site-nav .link {
-    color:#212121;
+    color:var(--title-text-color);
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color:#2196F3;
+    color:var(--accent-color);
+}
+    /* Hero. колір є */
 
-    /* Hero */
 .hero-title {
-    color:#FFFFFF;
-}    
+    color:var(--hero-color) 
+}
 
 /* section */
-}
+
 .section-title {
-    color:#212121;
+    color:var(--title-text-color);
 }
 
 /* features */
 .feature-list .title {
-    color:#212121;
+    color:var(--title-text-color);
 }
 
 /* body { 
