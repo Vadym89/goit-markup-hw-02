@@ -11,13 +11,25 @@
 body {
     background-color:#F5F4FA;
     color:var(--primary-text-color);
-}   font-femeli:Montserrat, sans-self;
+    font-family:Roboto, Raleway;
+    letter-spacing: 0.03em;
+}
 
-
+/* logo */
 
 .logo {
     color:var(--title-text-color);
+    font-family:Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19px;
 }
+
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+
 
 .list {
      list-style: none;
@@ -26,6 +38,10 @@ body {
 /* site nav */
 .site-nav .link {
     color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+   
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -38,7 +54,13 @@ body {
     /* Hero. колір є */
 
 .hero-title {
-    color:var(--hero-color) 
+    color:var(--hero-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+
 }
 
 /* section */
@@ -56,6 +78,12 @@ body {
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .button.primary {
     background-color:var(--accent-color);
