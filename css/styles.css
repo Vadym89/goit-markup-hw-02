@@ -5,14 +5,20 @@
 --background-color:#F5F4FA;
 --hero-color:#FFFFFF;
 --primary-bg-color:#E5E5E5;
+--background-color-two:#2F303A;
+
 
 }
 
 body {
-    background-color:#F5F4FA;
+    background-color:var(--background-color);
     color:var(--primary-text-color);
     font-family:Roboto, Raleway;
     letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    
 }
 
 /* logo */
@@ -23,13 +29,10 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
 }
-
-/* identical to box height */
-
-letter-spacing: 0.03em;
-
-
 
 .list {
      list-style: none;
@@ -41,6 +44,7 @@ letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
    
 }
 .site-nav .link:hover, 
@@ -51,10 +55,16 @@ letter-spacing: 0.03em;
 .site-nav .link.current {
     color:var(--title-text-color);
 }
-    /* Hero. колір є */
 
+
+    /* Hero.*/
+.hero {
+    background-color:var(--background-color-two)
+}
 .hero-title {
     color:var(--hero-color);
+    background-color:var()
+    ;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -67,12 +77,24 @@ letter-spacing: 0.03em;
 
 .section-title {
     color:var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
 }
 
 /* features */
-.feature-list .title {
-    color:var(--title-text-color);
+.feature-list ,title {
+    color:var(--title-text-color);    
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    list-style: none;
 }
+
+
 
 /* Button */
 .button {
@@ -92,6 +114,18 @@ letter-spacing: 0.03em;
 .hero-btn:hover,
 .hero-btn:focus{
     background-color: var
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* team 
+    
+.our-teamt {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
 
 /* body { 
     font-family: 'Roboto', sans-serif;
