@@ -151,13 +151,6 @@ body {
     color:var(--hero-color);
 }
 
-.hero-btn:hover,
-.hero-btn:focus{
-    background-color: var
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
 .our-team {
     font-weight: 500;
     font-size: 16px;
