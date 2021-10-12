@@ -226,4 +226,18 @@ body {
 .filter-btn:hover,
 .filter-btn:focus{
     color: var(--primery-title-color);
-    background-color: var(--accent-color);  
+    background-color: var(--accent-color); 
+}
+
+.list-point {
+    list-style: none;
+}
+
+.portfolio-work {
+color: var(--title-text-color);
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
