@@ -19,7 +19,7 @@ body {
 
 .logo {
     color:var(--title-text-color);
-    font-family:Raleway;
+    font-family:Raleway, sans-seri;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19px;
@@ -52,13 +52,12 @@ body {
 }
 
 .site-nav .link:hover, 
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link.current {
+    color:var(--title-text-color);
     color:var(--accent-color);
 }
 
-.site-nav .list.current {
-    color:var(--title-text-color);
-}
 
 .link {
     color:var(--title-text-color);
@@ -200,6 +199,19 @@ body {
 
 
 /* portfolio */
+
+.visually-hidden {
+   
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 .filter-btn{
     font-family: inherit;
