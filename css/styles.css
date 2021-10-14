@@ -53,7 +53,7 @@ body {
 
 .site-nav .link:hover, 
 .site-nav .link:focus,
-.site-nav .link.current {
+.site-nav .list.current {
     color:var(--title-text-color);
     color:var(--accent-color);
 }
@@ -99,6 +99,12 @@ body {
 
 
 /* section */
+
+.team {
+    background-color:var();
+}
+
+
 
 .section-title {
     color:var(--title-text-color);
@@ -154,7 +160,6 @@ body {
 }
 
 .team-text{ 
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.19;
     color: var(--primary-text-color); 
@@ -242,3 +247,8 @@ line-height: 2;
 letter-spacing: 0.06em;
 }
 
+.portfolio-text {    
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+}
