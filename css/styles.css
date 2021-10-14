@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color:var(--background-color);
+    background-color:var(--hero-color);
     color:var(--primary-text-color);
     font-family:Roboto, Raleway; 
 }
@@ -101,7 +101,7 @@ body {
 /* section */
 
 .team {
-    background-color:var();
+    background-color:var(--background-color);
 }
 
 
