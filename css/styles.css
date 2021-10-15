@@ -150,7 +150,10 @@ body {
 .button.primary {
     background-color:var(--accent-color);
     color:var(--hero-color);
+    cursor: pointer;
+    border-radius:4px;
 }
+    
 
 .our-team {
     font-weight: 500;
